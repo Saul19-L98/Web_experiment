@@ -1,0 +1,36 @@
+{
+  "name": "bootstrap_2",
+  "version": "1.0.0",
+  "description": "Second attend to learn bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "./node_modules/.bin/webpack serve"
+  },
+  "author": "sam",
+  "license": "ISC",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "autoprefixer": "^10.2.4",
+    "css-loader": "^5.1.1",
+    "fibers": "^5.0.0",
+    "html-webpack-plugin": "^5.2.0",
+    "mini-css-extract-plugin": "^1.3.9",
+    "node-sass": "^5.0.0",
+    "postcss": "^8.2.6",
+    "postcss-loader": "^5.0.0",
+    "sass": "^1.32.8",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.0",
+    "bootstrap": "^5.0.0-beta2",
+    "file-loader": "^6.2.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
